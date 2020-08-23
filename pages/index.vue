@@ -41,14 +41,14 @@
       height: 10rem;
       border-radius: 5rem;
       background-color: #ccc;
-      border: 4px solid #FF154F;
+      border: 4px solid #ff154f;
     }
     .url {
       font-size: 0.75rem;
       padding: 0.1rem 0.5rem;
-      background-color: lighten( #FF154F, 42%);
-      border: 1px solid lighten( #FF154F, 38%);
-      color: #FF154F;
+      background-color: lighten(#ff154f, 42%);
+      border: 1px solid lighten(#ff154f, 38%);
+      color: #ff154f;
       border-radius: 1rem;
     }
     .name {

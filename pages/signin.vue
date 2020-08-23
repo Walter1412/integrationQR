@@ -24,8 +24,7 @@
           a(href='/signup') 立即註冊
 
 </template>
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
 
 <script>
 export default {

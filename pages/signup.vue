@@ -33,8 +33,7 @@
           a(href='/signin').mx-1 立即登入
 
 </template>
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
 
 <script>
 export default {
