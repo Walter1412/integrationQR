@@ -25,8 +25,9 @@ module.exports = {
    ** Global CSS
    */
   css: [
-    { src: 'normalize.css' },
-    { src: 'assets/styles/app.styl', lang: 'stylus' },
+    // { src: 'normalize.css' },
+    // { src: 'assets/styles/app.styl', lang: 'stylus' },
+    { src: 'assets/main.scss', lang: 'scss' },
   ],
   /*
    ** Plugins to load before mounting the App
@@ -45,7 +46,7 @@ module.exports = {
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
-    '@nuxtjs/vuetify',
+    // '@nuxtjs/vuetify',
   ],
   /*
    ** Nuxt.js modules
@@ -56,7 +57,7 @@ module.exports = {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
-    '@nuxtjs/style-resources',
+    // '@nuxtjs/style-resources',
   ],
   /*
    ** Axios module configuration
@@ -68,7 +69,7 @@ module.exports = {
    ** https://github.com/nuxt-community/vuetify-module
    */
   vuetify: {
-    optionsPath: './vuetify.options.js.js',
+    // optionsPath: './vuetify.options.js.js',
   },
   /*
    ** Build configuration
@@ -82,9 +83,9 @@ module.exports = {
   styleResources: {
     // your settings here
     sass: [],
-    scss: [],
     less: [],
-    stylus: ['~assets/styles/_base.styl'],
+    scss: './scss/*.scss',
+    // stylus: ['~assets/styles/_base.styl'],
   },
   proxy: {
     '/api/': '',
