@@ -27,7 +27,7 @@ module.exports = {
   css: [
     // { src: 'normalize.css' },
     // { src: 'assets/styles/app.styl', lang: 'stylus' },
-    { src: 'assets/main.scss', lang: 'scss' },
+    { src: 'assets/scss/bootstrap-reboot.scss', lang: 'scss' },
   ],
   /*
    ** Plugins to load before mounting the App
@@ -84,7 +84,6 @@ module.exports = {
     // your settings here
     sass: [],
     less: [],
-    scss: './scss/*.scss',
     // stylus: ['~assets/styles/_base.styl'],
   },
   proxy: {
