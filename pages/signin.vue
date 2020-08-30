@@ -12,7 +12,7 @@
           input(placeholder='username@donate.com').form-control
         .form-group
           label.d-flex.justify-content-between.align-items-center
-            spna 密碼
+            span 密碼
             a(href='#').text-secondary.small 忘記密碼？
           input(placeholder='password').form-control
     .row.mt-3
@@ -24,7 +24,7 @@
           a(href='/signup') 立即註冊
 
 </template>
-<style lang="scss" scoped></style>
+<style lang="scss"></style>
 
 <script>
 export default {

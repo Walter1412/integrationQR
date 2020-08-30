@@ -27,7 +27,7 @@ module.exports = {
   css: [
     // { src: 'normalize.css' },
     // { src: 'assets/styles/app.styl', lang: 'stylus' },
-    { src: 'assets/scss/bootstrap-reboot.scss', lang: 'scss' },
+    { src: 'assets/styles/app.scss', lang: 'scss' },
   ],
   /*
    ** Plugins to load before mounting the App
@@ -64,13 +64,6 @@ module.exports = {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {},
-  /*
-   ** vuetify module configuration
-   ** https://github.com/nuxt-community/vuetify-module
-   */
-  vuetify: {
-    // optionsPath: './vuetify.options.js.js',
-  },
   /*
    ** Build configuration
    */

@@ -6,7 +6,7 @@
     a(href='/signin').btn.btn-primary 登入
 
 </template>
-<style lang="scss" scoped>
+<style lang="scss">
 .header {
   display: flex;
   padding: 1rem 1rem;

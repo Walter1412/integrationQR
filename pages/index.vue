@@ -12,11 +12,11 @@
       .row.d-flex.flex-column.justify-content-between.w-100
         .col-12.px-0
           button.btn.btn-outline-primary.btn-block.btn-lg.mb-3.border-2
-            bold.small 使用 街口支付 抖內
+            .small 使用 街口支付 抖內
           button.btn.btn-outline-primary.btn-block.btn-lg.border-2
-            bold.small 使用 LinePay 抖內
+            .small 使用 LinePay 抖內
 </template>
-<style lang="scss" scoped>
+<style lang="scss">
 .donate-card {
   background-color: #fff;
   border-radius: 1rem;

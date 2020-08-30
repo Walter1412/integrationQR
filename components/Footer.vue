@@ -5,15 +5,15 @@
     .row
       .col-12
         a(href='').text-white.small 隱私權政策
-        spna.text-white ．
+        span.text-white ．
         a(href='').text-white.small 關於 Donate
-        spna.text-white ．
+        span.text-white ．
         a(href='').text-white.small 小敝步
-        spna.text-white ．
+        span.text-white ．
         a(href='').text-white.small 意見回饋
 
 </template>
-<style lang="scss" scoped>
+<style lang="scss">
 .footer {
   padding: 1rem 0;
 }

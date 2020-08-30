@@ -19,7 +19,7 @@
     .row.mt-2
       .col-12
         p.small.text-center
-          spna 註冊即代表您同意我們的
+          span 註冊即代表您同意我們的
           a(href='#').mx-1 服務條款
           span 及
           a(href='#').mx-1 隱私權政策
@@ -29,11 +29,11 @@
     .row.mt-4
       .col-12
         p.small.text-center
-          spna.text-muted 已有帳號？
+          span.text-muted 已有帳號？
           a(href='/signin').mx-1 立即登入
 
 </template>
-<style lang="scss" scoped></style>
+<style lang="scss"></style>
 
 <script>
 export default {
